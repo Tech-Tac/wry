@@ -1,5 +1,12 @@
 # Changelog
 
+## \[0.47.0]
+
+- [`7221256`](https://github.com/tauri-apps/wry/commit/72212568cb4d815463fc035969f9cac60fe28ba6) ([#1365](https://github.com/tauri-apps/wry/pull/1365) by [@Norbiros](https://github.com/tauri-apps/wry/../../Norbiros)) Add `WebViewBuilder::with_initialization_script_for_main_only` to enable injecting JavaScript code into main frame only or all subframes.
+- [`c1b26b9`](https://github.com/tauri-apps/wry/commit/c1b26b9612bf5c5a9e4e0185f73739a2444343cd) ([#1394](https://github.com/tauri-apps/wry/pull/1394) by [@amrbashir](https://github.com/tauri-apps/wry/../../amrbashir)) Add `WebView::cookies` and `WebView::cookies_for_url` APIs.
+- [`1d63fa3`](https://github.com/tauri-apps/wry/commit/1d63fa325327a02a0a8be9ee50ce1eb7a0e8e04f) ([#1403](https://github.com/tauri-apps/wry/pull/1403) by [@SpikeHD](https://github.com/tauri-apps/wry/../../SpikeHD)) Add `WebViewBuilder::with_extension_path` API to Windows and Linux.
+- [`fa9875b`](https://github.com/tauri-apps/wry/commit/fa9875bb16dd967520c41e50c562a5aabccc2cbc) ([#1409](https://github.com/tauri-apps/wry/pull/1409) by [@amrbashir](https://github.com/tauri-apps/wry/../../amrbashir)) On Windows, disable Webview2's file drop when using `WebViewBuilder::with_drag_drop_handler` which fix drag events for files from "Recent files" view.
+
 ## \[0.46.3]
 
 - [`be122f6`](https://github.com/tauri-apps/wry/commit/be122f667f9f5516b4bc25f9e8c61cb99dbe1440) ([#1397](https://github.com/tauri-apps/wry/pull/1397) by [@lucasfernog](https://github.com/tauri-apps/wry/../../lucasfernog)) Fix `with_user_agent` regression.
